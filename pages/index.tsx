@@ -1,3 +1,4 @@
+import About from "../Components/About";
 import Header from "../Components/Header";
 import Hero from "../Components/Hero";
 
@@ -11,7 +12,9 @@ export default function Home() {
         <Hero />
       </section>
       {/* About */}
-
+      <section id="about" className="snap-start">
+        <About />
+      </section>
       {/* Experience */}
 
       {/* Skills */}
