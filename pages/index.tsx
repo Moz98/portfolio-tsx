@@ -2,6 +2,7 @@ import About from "../Components/About";
 import Experience from "../Components/Experience";
 import Header from "../Components/Header";
 import Hero from "../Components/Hero";
+import Skills from "../Components/Skills";
 
 export default function Home() {
   return (
@@ -23,7 +24,9 @@ export default function Home() {
       {/* Experience */}
 
       {/* Skills */}
-
+      <section id="skills" className="snap-start">
+        <Skills />
+      </section>
       {/* Contact Me */}
     </div>
   );
